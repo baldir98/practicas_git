@@ -41,5 +41,14 @@
 3) Ignorar archivos o carpetas que no queremos que se guarden en el repositorio:
 	* Crear un archivo con elnombre .gitignore, donde pondremos los nombre de los
 	  archovos o carpetas que no queremos que viajen al github o repositorio seleccionado
+
+4) Creamos un repositorio en github, sin el readmi, sin el gitignore. Luego en el git le damos el 
+   siguiente comando (git remote add origin y la ruta completa de nuestro repositorio creado), con 
+   con ésto le damos la ruta a git donde queremos guardar el código de nuestro proyecto en el repositorio 
+   remoto de guithub creado anteriormente. 
+
+5) Luego de darle la ruta a git, agregamos la siguiente línea: (git push -u origin master), con ésta enviamos 
+   los cambios al repositorio remoto.
+   	 
 	 
  
