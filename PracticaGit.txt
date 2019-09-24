@@ -1,1 +1,35 @@
-Practicando git 
+
+-------------------- Practicando git -------------------------------
+
+1) Para utilizar git en tu proyecto lo puedes hacer de varia formas:
+	* desde la consola de windows, navegas hasta donde tienes el proyecto
+	  y le das (git init) para indicarle que vas a utilizar el controlador
+	  de versiones git en el proyecto y apartir de allí, (se crea una
+	  carpeta oculta .git)
+        * Crear el archivo de tu proyecto donde quieras, luego allí abres la 
+          terminal gitbash y le das (git init) para iniciar con git, (se crea una
+	  carpeta oculta .git) 
+	* Abres el gitbash y navegas hasta la carpeta donde tienes el proyecto y 
+	  y lo inicialesas con el git init. 
+
+2) Configurar el git con el usuario y la cuenta de correo electrónico:
+	* git config --global user.name (y el nombre de usuario de tu github)
+	* git config -- global user.email (y el correo de tu github)
+	
+3) Comandos básicos en git:
+	* git init: inicializa un proyecto con git
+	* git status: visualizamos que archivos del proyecto se an modifiado y no 
+	  se an agregado al staging area (git add)
+	* git diff: nos muestra los cambios que se an hecho en el archivo (- y en rojo)
+	  son las líneas que se an eliminados o ya existentes y (+ y en verde son las 
+	  nuevas líneas que se an agregado)		
+	* git add: pasamos los cambios hechos al staging area (area de preparación)
+	* git commit: pasamos los cambios al repositorio local o primer SNAPSHOT
+	* git push: es para subir todos los cambios al repositorio remoto
+	* git clone: clona o hace una copia de un repositorio remoto a una máquina
+	  local para poder ser utilizado
+	* git log: nos muestra los cambios (rastreo o tracker) del los cambios montados
+	* git checkout --: nos devolvemos o revertimos al último cambio, tambien si le anexamos 
+	  el hash específico podemos revertir o borar ese cambio.
+	 
+ 
