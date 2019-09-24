@@ -31,6 +31,12 @@
 	* git log: nos muestra los cambios (rastreo o tracker) del los cambios montados
 	* git checkout --: nos devolvemos o revertimos al último cambio, tambien si le anexamos 
 	  el hash específico podemos revertir o borar ese cambio.
+        * git branch: nos muestra la rama o la versión en la que estamos trabajando
+	* git branch Y EL NOMBRE DE LA NUEVA VERSIÓN O RAMMA EN LA QUE VAMOS A TRABAJAR (git branch login): 
+          Creamos una nueva rama o versión del proyecto. 
+	* git checkout login: Nos posicionamos en la nueva rama o versión login
+	* guit add . : Agregamos de una vez todos los archivos que tengamos en nuestra área de trabajo
+	               en vez de agregar uno por uno.
 
 3) Ignorar archivos o carpetas que no queremos que se guarden en el repositorio:
 	* Crear un archivo con elnombre .gitignore, donde pondremos los nombre de los
