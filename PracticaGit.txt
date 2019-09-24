@@ -31,5 +31,9 @@
 	* git log: nos muestra los cambios (rastreo o tracker) del los cambios montados
 	* git checkout --: nos devolvemos o revertimos al último cambio, tambien si le anexamos 
 	  el hash específico podemos revertir o borar ese cambio.
+
+3) Ignorar archivos o carpetas que no queremos que se guarden en el repositorio:
+	* Crear un archivo con elnombre .gitignore, donde pondremos los nombre de los
+	  archovos o carpetas que no queremos que viajen al github o repositorio seleccionado
 	 
  
